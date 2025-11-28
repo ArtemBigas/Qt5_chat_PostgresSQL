@@ -1,6 +1,6 @@
 Chat on Qt Creator 5 with ProstgreSQL
 
-English: For the library to work, you need to add the following files to the project folder, including during the build: libiconv-2.dll, libintl-9.dll, libpq.dll, libxml2.dll, libxslt.dll, and, for the latest versions of PostgreSQL, libssl-X-x64.dll and libcrypto-x-x64.dll from the PostgreSQL\<version>\bin folder. The value of x in the libraries depends on the PostgreSQL version. If the terminal reports that the drivers are unavailable, check the sqldrivers folder.
+English: For the library to work, you need to add the following files to the project folder, including during the build: libiconv-2.dll, libintl-9.dll, libpq.dll, libxml2.dll, libxslt.dll,libwinpthread-1.dll and, for the latest versions of PostgreSQL, libssl-X-x64.dll and libcrypto-x-x64.dll from the PostgreSQL\<version>\bin folder. The value of x in the libraries depends on the PostgreSQL version. If the terminal reports that the drivers are unavailable, check the sqldrivers folder.
 
 Before beginning, you need to create databases - run the Create_Base program, it will connect to the created database and create all the necessary tables. The procedure for connecting to the database and other programs is similar, so that you don’t have to get into the code.
 
